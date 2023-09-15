@@ -1,0 +1,93 @@
+.main { 
+background-color: #02022B;
+background-image: url(./background.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.nav-main {
+ gap: 18px;
+}
+
+.nav-link{
+    color: white;
+    font-size: 18px;
+    gap: 48px;
+    font-family: 'Circular Std' Montserrat, sans-serif;
+
+}
+
+.nav-bar {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.launchbtn {
+    display: inline-flex;
+    padding: 20px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.launchbtn2 {
+    display: inline-flex;
+    padding: 20px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 50px;
+    background: 02022B;
+    text-decoration: none;
+    color: #C2EC5B;
+    font-size: 18px;
+}
+.title {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding-top: 15rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title h1{
+    color: white;
+    font-family: 'Syne', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    padding-bottom: 24px;
+    width: 970px;
+    
+}
+
+.title p {
+    color: white;
+    font-family: 'Circular Std' Montserrat, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    width: 744px;
+    padding-bottom: 10px;
+}
+
+.green {
+    color: #C2EC5B;
+}
